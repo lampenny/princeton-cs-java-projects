@@ -4,12 +4,12 @@ public class RightTriangle {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
 
-        boolean positiveNum = a > 0 && b > 0 && c > 0;
+        boolean isPositiveInt = a > 0 && b > 0 && c > 0;
 
         boolean r = a * a + b * b == c * c
                 || a * a + c * c == b * b
                 || b * b + c * c == a * a;
 
-        System.out.println(positiveNum && r);
+        System.out.println(isPositiveInt && r);
     }
 }
