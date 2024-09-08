@@ -6,9 +6,9 @@ public class RightTriangle {
 
         boolean isPositiveInt = a > 0 && b > 0 && c > 0;
 
-        boolean r = a * a + b * b == c * c
-                || a * a + c * c == b * b
-                || b * b + c * c == a * a;
+        boolean r = ((a * a) + (b * b)) == (c * c)
+                || ((a * a) + (c * c)) == (b * b)
+                || ((b * b) + (c * c)) == (a * a);
 
         System.out.println(isPositiveInt && r);
     }
