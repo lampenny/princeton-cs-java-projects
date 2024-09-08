@@ -1,5 +1,3 @@
-// Type conversion. 
-
 public class CMYKtoRGB {
     public static void main(String[] args) {
         double cyan = Double.parseDouble(args[0]);
@@ -12,8 +10,8 @@ public class CMYKtoRGB {
         int green = (int) Math.round(255 * white * (1 - magenta));
         int blue = (int) Math.round(255 * white * (1 - yellow));
 
-        System.out.println( "red = " + red );
-        System.out.println( "green = " +  green);
-		System.out.println( "blue = " + blue );
+        System.out.println("red = " + red);
+        System.out.println("green = " + green);
+		System.out.println("blue = " + blue);
     }
 }
