@@ -14,4 +14,4 @@ Write a program `RandomWalker.java` that takes an integer command-line argument 
 ### Key takeaways/refreshers from these assignments
 
 - `h += x` is shorthand for `h = h + x`
-- `Math.pow(i, r)` calculates the value of i raised to the power of r so if `i` is 2 and `r` is 3, exponente would be `2 x 2 x 2 = 8`
+- `Math.pow(i, r)` calculates the value of i raised to the power of r so if `i` is 2 and `r` is 3, exponente would be `2 x 2 x 2 = 8` aka exponentiation
