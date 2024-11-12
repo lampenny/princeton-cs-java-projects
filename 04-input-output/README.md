@@ -11,3 +11,5 @@ A higher entropy value indicates greater randomness.
 ### Checkerboard.java
 
 Utilizes stdlib `setScale()` and `filledPolygon()` functions.
+
+https://coursera.cs.princeton.edu/introcs/assignments/io/faq.php
