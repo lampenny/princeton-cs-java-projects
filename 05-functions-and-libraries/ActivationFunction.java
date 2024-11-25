@@ -26,6 +26,9 @@ public class ActivationFunction {
   public static double tanh(double x) {
     if (Double.isNaN(x)) { return Double.NaN };
 
+    if (x >= 20) { return 1.0; }
+    if (x <= -20) { return -1.0; }
+
     return (Math.exp(x) - Math.exp(-x)) / (Math.exp(x) + Math.exp(-x))
   }
 
